@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	background-color: #1565C0;
+}
+
+body {
+	font-family: 'Montserrat', serif;
+	margin: 0;
+}
+
+main {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #1FB5D0;
+	background-image:
+		url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='585' height='487.5' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.19'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+	padding-top: 10px;
+}
+
+.game-quiz-container {
+	width: 40rem;
+	height: 30rem;
+	background-color: #B3E5FC;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 30px;
+	box-shadow: 10px 10px 0px rgba(103, 102, 102, 0.3);
+}
+
+.game-details-container {
+	width: 80%;
+	height: 4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.game-details-container h1 {
+	font-size: 1.2rem;
+}
+
+.game-question-container {
+	width: 80%;
+	height: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #90A4AE;
+	border-radius: 25px;
+	box-shadow: 2px 3px 1px rgba(103, 102, 102, 0.2);
+}
+
+.game-question-container h1 {
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 3px;
+}
+
+.game-options-container {
+	width: 80%;
+	height: 12rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.game-options-container span {
+	width: 45%;
+	height: 3rem;
+	border: 2px solid #90A4AE;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 2px 3px 1px rgba(103, 102, 102, 0.2);
+}
+
+span label {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: transform 0.3s;
+	font-weight: 600;
+	color: rgb(22, 22, 22);
+}
+
+span label:hover {
+	-ms-transform: scale(1.08);
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08);
+	color: #1565C0;
+}
+
+input[type="radio"] {
+	position: relative;
+	display: none;
+}
+
+input[type=radio]:checked ~ .option {
+	background: #1FB5D0;
+}
+
+.next-button-container {
+	width: 50%;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.next-button-container button {
+	width: 8rem;
+	height: 2rem;
+	border-radius: 10px;
+	background: none;
+	color: rgb(25, 25, 25);
+	font-weight: 600;
+	border: 2px solid #90A4AE;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 2px 3px 0px rgba(103, 102, 102, 0.2);
+}
+
+.next-button-container button:hover {
+	background-color: #1565C0;
+}
+
+.modal-container {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	-webkit-animation: fadeIn 1.2s ease-in-out;
+	animation: fadeIn 1.2s ease-in-out;
+}
+
+.modal-content-container {
+	height: 20rem;
+	width: 25rem;
+	background-color: rgb(43, 42, 42);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 25px;
+}
+
+.modal-content-container h1 {
+	font-size: 1.3rem;
+	height: 3rem;
+	color: lightgray;
+	text-align: center;
+}
+
+.grade-details {
+	width: 15rem;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.grade-details p {
+	color: white;
+	text-align: center;
+}
+
+.modal-button-container {
+	height: 2rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-button-container button {
+	width: 10rem;
+	height: 2rem;
+	background: none;
+	outline: none;
+	border: 1px solid rgb(252, 242, 241);
+	color: white;
+	font-size: 1.1rem;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.modal-button-container button:hover {
+	background-color: rgb(83, 82, 82);
+}
+
+@media ( min-width : 300px) and (max-width : 350px) {
+	.game-quiz-container {
+		width: 90%;
+		height: 80vh;
+	}
+	.game-details-container h1 {
+		font-size: 0.8rem;
+	}
+	.game-question-container {
+		height: 6rem;
+	}
+	.game-question-container h1 {
+		font-size: 0.9rem;
+	}
+	.game-options-container span {
+		width: 90%;
+		height: 2.5rem;
+	}
+	.game-options-container span label {
+		font-size: 0.8rem;
+	}
+	.modal-content-container {
+		width: 90%;
+		height: 25rem;
+	}
+	.modal-content-container h1 {
+		font-size: 1.2rem;
+	}
+}
+
+@media ( min-width : 350px) and (max-width : 700px) {
+	.game-quiz-container {
+		width: 90%;
+		height: 80vh;
+	}
+	.game-details-container h1 {
+		font-size: 1rem;
+	}
+	.game-question-container {
+		height: 8rem;
+	}
+	.game-question-container h1 {
+		font-size: 0.9rem;
+	}
+	.game-options-container span {
+		width: 90%;
+	}
+	.modal-content-container {
+		width: 90%;
+		height: 25rem;
+	}
+	.modal-content-container h1 {
+		font-size: 1.2rem;
+	}
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+
+}
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+
+}
+.option {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px; /* Ajuste a altura conforme necessário */
+	width: 100%; /* Ajuste a largura conforme necessário */
+	text-align: center;
+	padding: 10px;
+	word-wrap: break-word; /* Quebra o texto para evitar overflow */
+}
+
+.game-options-container {
+	display: flex;
+	flex-direction: row;
+	gap: 15px; /* Espaçamento entre as opções */
+}
+
+.radio {
+	margin-right: 10px; /* Espaçamento entre o radio button e o label */
+}
