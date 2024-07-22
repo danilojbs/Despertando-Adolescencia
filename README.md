@@ -25,11 +25,11 @@ O projeto tem como objetivo analisar como a teoria do desenvolvimento psicossoci
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/danilojbs/projeto-adolescencia.git
+   git clone https://github.com/danilojbs/Despertando-Adolescencia.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd projeto-adolescencia
+   cd Despertando-Adolescencia
    ```
 3. Abra o arquivo `index.html` em seu navegador preferido.
 
